@@ -1,0 +1,68 @@
+body {
+    background-color: grey
+    
+}
+
+header {
+    background: white;
+    background-image: url("TO GET.jpg");
+    
+    padding: 05px;
+   
+    
+}
+
+    
+
+
+
+
+
+/*link no visitado?*/
+a: link {
+     text-decoration : none
+}
+/* visitado*/
+a: :visited {
+    text-decoration : none
+}
+/*link activo*/
+a:active {
+    text-decoration : none
+}
+/* posicion del mouse sobre el link*/
+a:hover {
+    text-decoration: none;
+}
+}
+
+img {
+    width: 80px;
+    height: 60px;
+}
+
+footer{
+    text-align: ;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    background: khaki ;
+    justify-content: right;
+    
+    
+
+}
+
+.col{
+    width: 60%;
+    height: 30px;
+    background-color: khaki;
+    text-align: center;
+    
+
+
+}
+
+*
