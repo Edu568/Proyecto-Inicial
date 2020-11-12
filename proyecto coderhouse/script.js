@@ -30,60 +30,27 @@ if(carritoDeCompras!=0){
 console.log(compra)
 
 
+function Login(){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-if(this.genType === "gas" && this.genPotency == 60){
-    checkoutValue = checknoutValue + 10000;
-} else if(this.genType === "gas" && this.genPotency == 125){
-    checkoutValue = checkoutValue + 15000;
-} else if(this.genType === "diesel" && this.genPotency == 60){
-    checkoutValue = checkoutValue + 20000;
-} else if(this.genType === "diesel" && this.genPotency == 125){
-    checkoutValue = checkoutValue + 40000;
-}}
-
-var generator1 = new generator("gas", 60);
-var generator2 = new generator("diesel", 125);
-
-quotationPreview.push(generator1);
-quotationPreview.push(generator2);
-
-for(i=0, length = quotationPreview.length ; i < length ; i++){
-    console.log("El generador ha sido añadido a la cotización.");
 }
 
-console.log(quotationPreview);
-console.log(checkoutValue);
-*/
+var body = document.body
+
+
+var nombre = document.getElementById("nombre").value
+var apellido = document.getElementById("apellido").value
+var button = docuement.getElementById("boton").value
+
+var button = document.getElementsById 
+console.log(apellido)
+document.getElementsById("boton").addEventListener("click", function(){
+    document.getElementById("boton").innerHTML = "Bienvenido a to get"
+};
+
+
+var database = new Database()
+database.getProducts();
+
+var products = getProducts();
+
+const productsContainer = document.getElementById('productsContiner')

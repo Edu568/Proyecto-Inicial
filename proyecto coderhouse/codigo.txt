@@ -35,3 +35,12 @@
         </nav>
 </section>
      <!--Lorem permite rellenar el campo--
+
+
+
+
+
+
+<p>La idea de estas clases es que cada alumno pueda utilizar las herramientas dadas en clase para aplicarlas en las clases de ingles de sus Institutos
+ 		   Bajo ningun aspecto se intentara que el alumno desperdicie el timpo y se buscara<b>la completa comeprensión del alumno en todas las clases</b><br/>Para una mayor consulta ingresar en el link debajo. </P>
+ 		 <a target?="_blank" href="mailto:edwardpark07@gmail.com" title="Enviar correo a edward">Enviar consulta</a>
