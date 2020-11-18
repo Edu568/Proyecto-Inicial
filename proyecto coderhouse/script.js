@@ -37,20 +37,46 @@ function Login(){
 var body = document.body
 
 
-var nombre = document.getElementById("nombre").value
-var apellido = document.getElementById("apellido").value
-var button = docuement.getElementById("boton").value
-
-var button = document.getElementsById 
-console.log(apellido)
-document.getElementsById("boton").addEventListener("click", function(){
-    document.getElementById("boton").innerHTML = "Bienvenido a to get"
-};
 
 
-var database = new Database()
+
+var database = new dataBase()
 database.getProducts();
 
 var products = getProducts();
 
 const productsContainer = document.getElementById('productsContiner')
+
+products.forEach( product => {
+   let productCard = createProductCard();
+   productsContainer.appendChild(productCard);
+
+})
+
+function createProductCard() {
+    let productcard = document.createElement('div');
+    productDiv. id = product.id;
+    productDiv. classList = 'productCard col-4 p-2 d-flex flex-colum align-items-center'
+    
+    let nameDiv = document.createElement('div')
+    nameDiv.innerHTML = product.name;
+    
+    let stockDiv = document.createElement('div')
+    stockDiv.innerHTML = product.stock;
+    
+    let priceDiv = document.createElement('div')
+    priceDiv.innerHTML = product.price;
+
+    let button = document.createElement("button");
+    button.innerHTML = "Mostrar Producto"
+
+    button.addEventListener('click', () => {
+        console.log(product)
+    })
+
+    productCard.appendChild(nameDiv)
+    productCard.appendChild(priceDiv)
+    productCard.appendChild(stockDiv)
+    productCard.appendChild(button)
+    return productCard;
+}

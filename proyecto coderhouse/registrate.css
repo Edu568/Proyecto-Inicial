@@ -1,53 +1,23 @@
-body {
-    
-    text-align: center;
+
+
+header{
+    background-color: grey;
+    background-image: url("TO GET.jpg");
+    padding: 0.50px;
+ 
+
 }
 
-header {
-    background: grey;
-   
-    padding-top: 15px;
-    border-style: groove;
-    
-    
+h2{
+    font-size: 50px;
 }
-
-label {
-    margin: 50px;
-}
-
-h1 {
-    font-size: 40px;
+body{
+    background-image: url("TO GET.jpg");
     
 }
 
-form {
-    width: 40px;
-    height: 20px;
-    border: 50px;
-    margin: 15px
-}
 
 button:hover {
     background: greenyellow
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
-    background: khaki ;
-    justify-content: right;
-    
-    
-
-}
-
-.col{
-    width: 60%;
-    height: 30px;
-    background-color: khaki;
-    text-align: center;
-    
-
-
-}

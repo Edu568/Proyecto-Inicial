@@ -13,7 +13,7 @@ header {
 }
 
 a{
-    margin-right: auto;
+    margin
 }
 
 
@@ -50,7 +50,7 @@ footer{
 .row{
     display: flex;
     flex-direction: row;
-    background: khaki ;
+    
     justify-content: right;
     
     

@@ -2,13 +2,15 @@ function getProducts(){
         let productsAsObjects = JSON.parse(DATA)
         let products = [];
         for(element of productsAsObjects){
+          let product = new Product(element.id, element.name, element.price, element.stock)
+
             products.push(new Product)
         }
        // let products = productsAsObjects.map(function(value){
        //     return new product (value.id, value.name, value.price, value.stock
 
         //}
-
+        return products
 }
 
 
