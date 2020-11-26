@@ -1,0 +1,29 @@
+header{
+    background-color: grey;
+    background-image: url("TO GET.jpg");
+    padding: 0.50px;
+}
+
+
+
+
+
+
+
+body {
+    background-color:grey;
+}
+
+
+
+h2 {
+    font-size: 50px;
+}
+
+form {
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+

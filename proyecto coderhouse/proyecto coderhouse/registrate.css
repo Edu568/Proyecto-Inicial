@@ -1,0 +1,23 @@
+
+
+header{
+    background-color: grey;
+    background-image: url("TO GET.jpg");
+    padding: 0.50px;
+ 
+
+}
+
+h2{
+    font-size: 50px;
+}
+body{
+    background-image: url("TO GET.jpg");
+    
+}
+
+
+button:hover {
+    background: greenyellow
+}
+

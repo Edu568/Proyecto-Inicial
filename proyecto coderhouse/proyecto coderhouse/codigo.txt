@@ -1,0 +1,46 @@
+<h2>Samsung</h2>
+
+     <section>
+            <nav>
+                <a href="https://www.samsung.com/ar/" target ="_blank">Pagina oficial</a>
+                <select>
+                <!--El select permite crear listas desplegables-->
+                <option value="s20 ultra">s20 ultra</option>
+                <option value="s20 plus">s20 plus</option>
+                <option value="s20">s20</option>
+                <option value="s20 FE">s20 FE</option>
+
+                </select>
+        <h2>Apple</h2>
+            <select id="Apple">
+                <option value="iphone 12 pro max">Iphone 12 pro max </option>
+                <option value="iphone 12 pro ">Ipohone 12 pro</option>
+                <option value="ipohne 12">Iphone 12</option>
+                <option value="iphone 12 se">Iphone 12 se</option>
+            </select>
+        <h2>Xiaomi</h2>
+        <select id="Xiaomi">
+            <option value="Xiaomi MI 10">Xiaomi MI 10</option>
+            <option value="Xiaomi MI 10 lite">Xiaomi MI 10 lite</option>
+            <option value="Xiaomi MI 10 pro">Xiaomi MI 10 pro</option>
+        </select>
+        <h2>One Plus</h2>
+        <select id="One Plus">
+            <option value="One Plus 8 pro">One Plus 8 pro</option>
+            <option value="One Plus 8">One plus 8</option>
+            <option value="One Plus 8 Lite">One plus 8 Lite</option>
+            <option value="One Plus Norde">One Plus Norde</option>
+        </select>
+        <hr>
+        </nav>
+</section>
+     <!--Lorem permite rellenar el campo--
+
+
+
+
+
+
+<p>La idea de estas clases es que cada alumno pueda utilizar las herramientas dadas en clase para aplicarlas en las clases de ingles de sus Institutos
+ 		   Bajo ningun aspecto se intentara que el alumno desperdicie el timpo y se buscara<b>la completa comeprensión del alumno en todas las clases</b><br/>Para una mayor consulta ingresar en el link debajo. </P>
+ 		 <a target?="_blank" href="mailto:edwardpark07@gmail.com" title="Enviar correo a edward">Enviar consulta</a>
