@@ -91,3 +91,11 @@ products.forEach(function(product){
     productsContainer.append('')
 
 })
+
+
+var producto
+var productsContainer = $('.productContainer')
+$.ajax('productos.json').done(function(data){
+    producto = data
+
+})
