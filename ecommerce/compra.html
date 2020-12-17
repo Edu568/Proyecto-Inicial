@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <script src="pedido.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row justify-content-between mb-5">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a class="navbar-brand" href="index.html">To Get</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="row mt-3">
+            <div class="col">
+                <h2 class="d-flex justify-content-center mb-3">Realizar Compra</h2>
+                <form id="procesar-pago" action="#">
+                    <div class="form-group row">
+                        <label for="cliente" class="col-12 col-md-2 col-form-label h2">Cliente</label>
+                        <div class="col 12 col-md-10">
+                            <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo" required>
+                        </div>
+
+                        <div id="carrito" class="table-responsive">
+                            <table class="table" id="lista-compra">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Imagen</th>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Sub total</th>
+                                        <th scope="col">Eliminar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-right">SUB TOTAL :</th>
+                                    <th scope="col">
+                                        <p id="subtotal"></p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-right">IGV :</th>
+                                    <th scope="col">
+                                        <P id="igv"></P>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-right">TOTAL :</th>
+                                    <th scope="col">
+                                        <P id="igv"></P>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="row justify-content-center" id="loaders">
+                            <img id="cargando" src="imagenes proyecto/cargando.gif" width="220">
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-md-4 mb-2">
+                                <a href="index.html" class="btn btn-info btn-block">Seguir Comprando</a>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <a href="#" class="btn btn-success btn-block" id="procesar-compra">Realizar Compra</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+                                        
+</body>
+</html>
