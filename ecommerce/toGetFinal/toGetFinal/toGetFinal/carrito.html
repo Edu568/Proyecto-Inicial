@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Get</title>
+    <link rel="shorcut icon" href="favicon.jpg"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/registrate.css">
+</head>
+<body data-site="TO GET" data-country="AR">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#"><h2>To Get</h2></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="contacto.html">Ingresa</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="registrate.html" target="_blank">Registrate</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="shopping-cart">
+            <div class="container">
+                <h1 class="text-center">CARRITO</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="shopping-cart-header">
+                            <h6>Producto</h6>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="shopping-cart-header">
+                            <h6 class="text-truncate">Precio</h6>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="shopping-cart-header">
+                            <h6>Cantidad</h6>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="shopping-cart-items shoppingCartItemsContainer">
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="total-del-carrito d-flex align-items-center">
+                            <p class="mb-0">Total</p>
+                            <p class="ml-4 mb-0 totalDelCarrito">$0</p>
+                            <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                                data-delay="2000">
+                                <div class="toast-header">
+                                    <span>✅</span>
+                                    <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="toast-body text-white">
+                                    Se aumentó correctamente la cantidad
+                                </div>
+                            </div>
+                            <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                                data-target="#comprarModal">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Pronto recibirá su pedido</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                
+         </section>
+        </header>
+        <footer>
+            <div class="footer-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="footer-widget">
+                                <h4>About TO GET</h4>
+                                <p>Somos una empresa de ventas de smartphones que no se pueden conseguir en la argentina. Trabajamos en conjunto con amazon y mercado libre para poder ofrecerte la mejor experiencia desde el momento de la compra hasta que llega a tus manos.
+                                    </p>
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="footer-link-contact">
+                                <h4>Contact Us</h4>
+                                <ul>
+                                    <li>
+                                        <p><i class="fas fa-map-marker-alt"></i>Juana Manso 2560 <br>Buenos Aires, Argentina </p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fas fa-phone-square"></i>Contacto: <a href="tel:+1-190807060">1190807060</a></p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">toget@gmail.com</a></p>
+                                    </li>
+                                    
+                                </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            
+        </footer>
+        <script src="js/jquery v3.5.1.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous">
+    </script>
+        <script src="js/tienda.js"></script>
+    </body>
+</html>
+        
+            
+                        
+                            
+                                
+             
+    
